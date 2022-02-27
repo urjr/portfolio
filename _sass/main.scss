@@ -4,17 +4,11 @@ $bodyColor: #000000;
 $bodyFont: 'Cormorant Garamond', serif;
 $secondayFont: 'Cabin', sans-serif;
 
-//Includes
+//Mixins
 
+
+//Parent Styles
 body {
   background: $backgroundColor;
   color: $bodyColor;
-  font-family: $bodyFont;
-  font-weight: 600;
-  font-size:50px;
-}
-
-h1 {
-  font-weight: 500;
-  letter-spacing: -2px;
 }
